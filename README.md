@@ -34,7 +34,7 @@ OllaMate consists of the following core components:
 ### 1. Repository Setup
 ```bash
 git clone https://github.com/uranium89/ollama-mate
-cd OllaMate
+cd ollama-mate
 ```
 
 ### 2. Configuration
