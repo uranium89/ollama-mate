@@ -10,7 +10,7 @@ OllaMate consists of the following core components:
 - **n8n**: Workflow automation and orchestration
 - **PostgreSQL**: Database for workflow and configuration storage
 - **Qdrant**: Vector database for embeddings and semantic search
-- **AnyLLM**: UI interface for LLM interactions
+- **AnythingLLM**: UI interface for LLM interactions
 
 ## Technical Requirements
 
@@ -75,7 +75,10 @@ docker-compose up -d
 - Access port: 6333
 - Storage type: Persistent
 - Index format: HNSW
-
+### AnythingLM
+- Access URL: http://localhost:3001
+- Model storage location: `/anyllm_storage`
+- Database: PostgreSQL
 ## Security Considerations
 
 1. **Network Security**
