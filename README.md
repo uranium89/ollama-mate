@@ -57,22 +57,7 @@ OllaMate uses Docker volumes for persistent storage:
 
 ### 3. Deployment Options
 
-#### CPU-only Deployment
-```bash
-docker-compose --profile cpu up -d
-```
-
-#### NVIDIA GPU Deployment
-Ensure nvidia-container-toolkit is installed:
-```bash
-docker-compose --profile gpu-nvidia up -d
-```
-
-#### AMD GPU Deployment
-Ensure ROCm runtime is properly configured:
-```bash
-docker-compose --profile gpu-amd up -d
-```
+docker-compose up -d
 
 ## Component Configuration
 
